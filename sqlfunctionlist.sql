@@ -36,3 +36,16 @@ Functions:
     MAX
     SUM
 */
+/*
+XOR -> either one but not both
+LENGTH -> length of the string
+LEFT -> LEFT(str,2) left two letters
+CONCAT -> concatenate num and str
+
+Defining a variable
+Find max area for each continent
+SELECT continent, name, area FROM world x
+  WHERE area >= ALL
+    (SELECT area FROM world y
+        WHERE y.continent=x.continent
+          AND area>0)
